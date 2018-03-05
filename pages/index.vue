@@ -1,10 +1,18 @@
 <template>
 <v-container grid-list-md text-xs-center>
-    <v-layout column row wrap justify-center align-center>
-      <v-flex xs12 sm8 md6>
-        <v-card light>
+    <v-layout row wrap>
+      <v-flex xs12>
+        <v-card dark color="white black--text">
+          <v-card-text class="px-0">C H A R L O T T E</v-card-text>
+        </v-card>
+      </v-flex>
+      <v-flex xs12>
+        <v-card light flat class="text-xs-center">
           <v-card-text class="px-0">
-            <img src="Charlotteheart.svg" alt="Vuetify.js" />
+            <img src="/catgrey.jpeg" alt="Vuetify.js" />
+            <img src="/catgrey.jpeg" alt="Vuetify.js" />
+            <img src="/catgrey.jpeg" alt="Vuetify.js" />
+            <img src="/catgrey.jpeg" alt="Vuetify.js" />
           </v-card-text>
         </v-card>
       </v-flex>
